@@ -22,6 +22,7 @@ repositories {
 
 dependencies {
     compile project (':../processing/core')
+    compile 'com.google.guava:guava:18.0'
 }
 
 sourceCompatibility = 1.7
