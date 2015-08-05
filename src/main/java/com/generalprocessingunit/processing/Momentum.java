@@ -20,6 +20,9 @@ public abstract class Momentum<T> extends MathsHelpers{
         this.friction = friction;
     }
 
+    public void setFriction(float friction) {
+        this.friction = friction;
+    }
 
     public void add(T amount){
         _add(amount);
